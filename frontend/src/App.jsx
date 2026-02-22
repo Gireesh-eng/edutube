@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink, Route, Routes, useNavigate, useLocation } from "react-router-dom";
+// Use lowercase paths for Linux/Vercel (case-sensitive)
 import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
